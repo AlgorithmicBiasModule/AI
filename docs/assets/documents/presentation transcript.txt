@@ -1,0 +1,132 @@
+Slide #1
+Welcome to algorithmic bias in artificial intelligence for health care. This module is designed for clinicians to learn how to approach using AI tools in the clinical setting. AI will be increasingly used in health care and clinicians need to know how to approach using these tools safely and ethically. One of the principal issues in using AI is algorithmic bias which is the main topic of this module.
+
+Slide #2
+In this module, you will learn, first, to recognize different forms of algorithmic bias in the use of artificial intelligence for health care and the origins of those biases; second, to deconstruct algorithmic bias in the use of artificial intelligence for health care; and third, to empathize with the importance of recognizing and addressing algorithmic bias in health care by exploring the problems resulting from algorithmic bias and the disproportionate impact on already marginalized populations.
+
+Slide #3
+We will begin the module by reviewing some core terminology essential for understanding the content. Then we will delve into the main concepts of algorithmic bias, followed by looking at some examples. You will then receive a brief summary of the module and a set of general recommendations on how to approach using AI systems in health care to mitigate bias. After viewing the module you can then move on to cases where you will apply the concepts learned here.
+
+Slide #4
+Let's begin with the core terminology you will need to understand algorithmic bias in health care. There are five key terms: Artificial Intelligence, Machine Learning, Algorithms, Bias, and Algorithmic Bias. This will provide a starting point, but you can learn some other important terms in the reading listed on the overview page.
+
+Slide #5
+First, what is artificial intelligence? AI describes a branch of computer science for developing digital algorithmic systems capable of complex decisions.
+
+Slide #6
+Next, what is machine learning? Machine learning is the dominant branch of AI wherein systems train predictive models by identifying patterns of data from input, and then use those patterns to make predictions in new data.
+
+Slide #7
+Algorithms are a set of step-by-step instructions which the computer system relies on to perform tasks modified through the training process of machine learning to be more accurate.
+
+Slide #8
+Bias is a systematic deviation from the truth, and the processes that lead to such a deviation. Bias can be come in the form of social biases and statistical biases. Bias contrasts with noise or variation which randomly deviates from the truth. Many errors are a combination of both bias and noise.
+
+Slide #9
+And now, what is algorithmic bias? This is the systematic prejudice found in the development and use of artificial intelligence systems in a reflection of the data input, methods used, and human judgment.
+
+Slide #10
+Now that we have the core terms defined, we can move to some of the main concepts in algorithmic bias in health care. These concepts are derived from an extensive literature review and discussions with experts on AI in health care. We will cover 5 main concepts: biased data, transparency & explainability, regulation of AI in health care, risk of harm, and the transformation of health care. What is covered here is just the tip of the iceberg, but representative of essential knowledge for clinicians who will be interacting with AI tools in providing patient care. 
+
+Slide #11
+The first concept we will explore is biased data which is the largest source of bias in AI algorithms.
+
+Slide #12
+Click each of the four areas to learn about different major sources of biased data in AI systems.
+
+Slide #12a
+Biased data primarily orginates from flaws in data collection. Despite the lack of quality in data collection, many people assume that artificial intelligence is free of bias due to the use of a scientific process in its development. However, flaws in data collection can lead to overrepresentation or underrepresentation in data used to train the AI tool. Bias can also be present in data sets that are too small or incomplete. Health care in particular has numerous potential sources of biased data. If, for example, you want to avoid using EHR records with missing data and only use complete data to train your algorithm, you would introduce a bias toward older and sicker patients who are also more likely female. Similarly, when performing data collections in the health care setting, the process is inherently biased toward those who are able to afford health care services.
+
+Slide #12b
+Preexisting social biases often implicitly contribute to the presence of bias in data. Social biases can influence the availability of data to be used, the selection of variables to represented, and other, often difficult to recognize, features of data.
+
+Slide #12c
+System drift is a reflection of how bias can accrue over a period of time due to changes in society, changes in goals for the AI system, and how the AI system is implemented.
+
+Slide #12d
+Similar to system drift, feedback loops can make data biased over time. In this case, the results of the AI system itself can cause changes in the data which then change how the AI functions.
+
+Slide #13
+The importance of biased data is in how this data influences the development of the AI algorithm, in a problem often referred to as garbage in, garbage out. In other words, AI systems are only as good as the data on which they are trained.
+
+Slide #14
+Another way in which data is biased is when preexisting social biases are captured in the data and then codified into the algorithm. In any AI tool, there are risks for unintended consequences when users are not aware of the social biases being captured in the data. And furthermore, those biases can become amplified by the system. Click each line to hear examples of how each biased process could occur.
+
+Slide #14a
+A simple way that preexisting biases are codified into AI systems is through the use of form entries with restricted options. A major example of this is when gender options are limited to just male or female. 
+
+Slide #14b
+Examples of unintended consequences in the use of AI systems for health care include effects on access to health care for marginalized populations or increases in cost of care. Not all unintended consquences are negative, but it can be difficult to take advantage of positive effects that are not expected.
+
+Slide #14c
+A study from Nature Medicine 2021 describes an example of bias amplification in an AI system that could increase the rates of underdiagnosis in chest radiographs for under-served patient populations. The model risked not only failing to diagnose patients that clinicians underdiagnosed but also patients who clinicians did not underdiagnose.
+
+
+Slide #15
+To avoid using biased data, it is essential for AI algorithms to rely on diverse data sources which are accessible and standardized. Due to the poor integrity of data historically, the data used for an algorithm should be new whenever possible, in addtion to being accurate and complete.
+
+Slide #16
+The next concept, transparency and explainability, is important for understanding the role of using AI systems in health care. When advanced technology is not well understood, as Sci-Fi writer Arthur C. Clarke suggests, it is indistinguishable from magic. 
+
+Slide #17
+Transparency and Explainability are best described in the frame of black boxes in AI. The black box refers to a situation where an AI algorithm has learned to provide an output but no one is able to explain how the system derived the output. This can be problematic in terms of our inability to know if that output is correct and fair. This is especially an issue in health care where the ability to explain is essential to maintaining trust in the health care system.
+
+Slide #18
+The ability for users of an AI system to understand how the output was achieved is often purposefully hindered by commercial entities, where developers want to keep proprietary tools unexamined. This means that tools in use can provide incorrect or unfair output without the user being able to determine that is the case. Clearly, this can be an issue when AI tools are used to provide clincial care. From a different perspective, it is important to consider that any AI systems with some level of transparency and explainability will increase the burden on clinicians to learn more with the expectation to be educated users of those systems. 
+
+Slide #19
+Underlying the concept of explainability and transparency is the inclination to trust, or not trust, the use of AI in health care. As clinicians, there is a need to determine how much trust to place in an AI system. Part of knowing how much trust to place in the system is in the transparency of those systems and the ability to audit how well the algorithm is performing. Those systems should also regularly report to users the level of certainty with which it is providing an output rather than as a a simple binary output. Based on what is known about a system, clinicians should calibrate their level of trust in the system, with the level of trust also dependent on the context in which the system is used. Click the left and right arrows next to the calibration tool appearing on the screen now to read more about determining the right amount of trust to hold in an AI system. If you are using autoplay, this has been paused on this slide to allow time to read the text and you can restart autoplay on the next slide.
+
+Slide #20
+To effectively use AI tools, clinicians should have some understanding of the regulation for those tools, and for understanding algorithmic bias it is specifically important to have some understanding on the limits of that regulation.
+
+Slide #21
+The legal response to new technology always lags behind the development. At the time of developing this module, the FDA has not addressed concerns regarding algorithmic bias in the tools used for health care. There also remains significant uncertainty about liability in the development and use of AI. And, as with other areas of health care, industry can exert a significant influence over the regulation of AI. In Europe, there has been ongoing debate on a right to explanation.  In thinking about the level of explainability in AI systems in health care, it is important to keep in mind how this can also limit the effectiveness of AI systems.
+
+Slide #22
+Medical professionals have a duty of nonmalificence, to do no harm or more specifically weigh the risk of harm against the benefits. The clinical use of AI algorithms with bias presents a clear risk of harm that clinicians must be able to fairly weigh against their benefits.
+
+Slide #23
+In general, the use of AI tools lends to a high risk of bias, and that bias represents potential harm. Where bias is involved, it also means that the risk of harm is disproportinately distributed to marginalized populations. And this harm can arise anywhere in the lifecycle of an AI system from the development of the system in deciding what to make an algorithm for and why, to the collection and use of biased data that informs the algorithm, to where and how the algorithm is deployed, as well as how it is evaluated.
+
+Slide #24
+The most commonly referenced form of harm from algorithmic bias is racism and colorism. This goes back to the issue with biased data where racial minorities are underrepresented in most studies. But it goes back even further in that the developers of AI algortihms are often not representative of minority populations. This influences the decisions made in the development process, especially where social factors are involved and may not receive enough attention.
+
+Slide #25
+To avoid harm in using AI systems in health care, clinical tools should be evaluated fully for safety and effectiveness in an indepedent validation process. During the development and evaluation process bioethicists should be involved. And clinicians need to be aware of how effective and safe these tools are, including in specific populations so they can determine which circumstances and patients are suitable for using the tool and how to interpret the results.
+
+Slide #26
+The final concept, transformation of health care, places the risk of algorithmic bias and the use of AI tools into context of how the health care system is changing, and how the role of clinicians is changing alongside that.
+
+Slide #27
+There is a clear paradigm shift occuring with the datafication and digtialization of health care, impacting what clinicians are expected to know and how they are expected to interact with patients. Each day, 750 quadrillion bytes of patient data is produced which is far more than what human clinicians can work with, making AI algorithms increasingly necessary in the health care work flow.
+
+Slide #28
+Now we will go through a couple of examples, keeping in mind the terminology and concepts just covered.
+
+Slide #29
+The analysis of skin lesions by AI to determine the presence of melanoma has become the classic example of algorithmic bias in health care. AI systems for the diagnosis of skin lesions are often trained with images of these lesions on white patients, while data sets have an estimated proportion of Black patients of 5-10%. This leads to reduced diagnostic accuracy in Black patients compared to the purported level of the system. In the case of melanoma, this can be very consequential in that the estimated 5 year survival rate is 70% for Black patients compared to 94% for white patients. The problem here goes deeper than inclusion, as the process of image capture has historically been affected by racial bias. Digital photography has brought about advancements that improved this issue, but measures to correct lighting can also introduce light artefact or influence color saturation in the image.
+
+Slide #30
+The pulse oximeter measures oxygen saturation of hemoglobin by sending infrared light through the skin. Measurements of the pulse oximeter are known to be affected by the patient’s skin color, as the device systematically overestimates oxygen saturation levels in nonwhite patients. As a result, Black patients are three times more likely to suffer from an occult hypoxemia compared with white patients. Despite the difference in quality of measurement from the devices base on skin color, there is no corrective factor to account for this and these measurements are collected as data to be used in AI systems. Furthermore, it is rarely acknowledged that an oximeter that does adjust for skin color was developed in the 1970s but never became widely used.
+
+Slide #31
+In summary, algorithmic bias is the systematic prejudice found in the development and use of artificial intelligence systems in a reflection of the data input, methods used, and human judgment. The source of that bias is prominently from the use of biased data, the lack of transparency and explainability, and poses a risk in health care due to inadequate regulation. The harms of algorithmic bias disproportionately affect marginalized populations. Nonetheless, the use of AI technology is increasing along with the amount of data in health care, and so clinicians need to recognize the presence of bias, understand the limitations of tools and regulation, and know when to trust the AI output and when not to trust it. To help put things together, here is a set of general recommendations to follow as clinicians interacting with AI systems in providing patient care. These recommendations orignate from the concepts learned in the module.
+
+1. Determine who you can seek guidance from in your organization on using AI systems and be sure to ask questions when they arise 
+2. Consider who was represented in the development of the system and their goals
+3. Review how the system was approved and how it is monitored
+4. Check the training data, determine how bias could have influenced the data, and if that bias was adjusted for
+5. If the data is not available, advocate to your organization and the developers to know more about the system 
+6. If the system does not provide a level of certainty, adjust your level of trust in the system output accordingly	
+7. Think about the harm that could come from using the AI system and how likely that harm is to occur 
+8. Calibrate your trust in the system based on how much you know about it and the risks associated with using it 
+9. Determine how the system fits in the overall care of the patient and the larger health care system
+
+
+
+Slide #32
+Three cases with four videos based on real-life scenarios have been prepared for you to further explore algortihmic bias in health care. Each case is followed by a small set of questions. To receive credit for completing the module, you will need to partipate by answering at least one question for each of the case videos. There is not a right or wrong answer to the questions. The goal is to provide thoughtful answers that use the concepts learned here in the module. To go to the cases, you can either click in the menu or click the image presented here of 3 casebooks. 
+
+Information
+To navigate to the next slide press the right arrrow in the bottom right hand corner. A left arrow will appear just to the left of the right arrow to navigate back to previous slides. You can open the presentation to a larger view by pressing the gray square on the bottom right side. To show a transcript below the presentation, push the show transcript button. To pause and continue push the pause-play button. There is a counter on the bottom left hand corner that shows your overall progress. On the top left corner you can navigate to different sections of the module. And in the top right hand corner you can view the references associated with the page you are currently viewing.

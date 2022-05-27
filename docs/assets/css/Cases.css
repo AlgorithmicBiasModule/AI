@@ -1,0 +1,88 @@
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+td, th {
+  border:none;
+  text-align: center;
+  padding: 2px;
+}
+
+td.left {
+width:800px; }
+
+
+tr.content:hover {
+          background-color: #9ddf81;
+        }
+
+
+.instructions {
+text-align:center;
+font-style:italic; }
+
+
+.Case {
+font-size:30px;
+text-align:center;
+}
+
+.Case a{
+text-decoration:none;
+color:black; }
+
+.Casescontent {
+text-align:center; }
+
+.Clinks {
+text-align:left;
+width:800px;
+margin:auto;}
+
+.Crefs {
+text-align:left;
+width:800px;
+margin:auto; }
+
+.Casescontent a{
+color:#349beb;
+text-decoration:none; }
+
+
+#Case1A {
+display:block; }
+
+#Case1B {
+display:block; }
+
+#Case2 {
+display:block; }
+
+#Case3 {
+display:block; }
+
+.CaseQ {
+text-align:center; 
+font-size:28px;
+padding-top:10px;
+padding-bottom:10px;}
+
+.navCases {
+text-align:center; }
+
+.navCases a{
+color:#349beb;
+padding:5px;
+text-decoration:none; }
+
+.discussion {
+padding-left:15px;
+padding-right:15px;
+
+ }

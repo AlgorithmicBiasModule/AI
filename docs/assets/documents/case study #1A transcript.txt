@@ -1,0 +1,18 @@
+This is the first part of case one based on a real covid-19 severity prediction algorithm.
+
+In this first scenario, consider how during the COVID-19 pandemic many hospitals implemented risk prediction algorithms in an attempt to direct resources to patients with the most need. We will consider one proprietary algorithm which was initially developed to predict the potential for deterioration in an array of illnesses. At the onset of the pandemic, the algorithm was repurposed for COVID-19. Although the proprietary nature of the algorithm did not allow users to fully understand how the results were produced, it was deployed at numerous hospitals without any supporting independent validation or peer-review publications. The company that developed the algorithm also offered financial incentives to hospitals to use AI algorithms for sepsis detection, although it was not necessary for those algorithms to be developed by this company. The algorithm works by assigning a score every 15 minutes from 0 to 100 based on the most recent vital signs, lab results, and nursing assessments, where a higher score indicates a higher risk of deterioration.
+
+Based on this information about the COVID-19 prediction algorithm answer at least one of the following questions linked below the case video...
+What are some of the pros and cons of implementing the algorithm for predicting COVID-19 severity?
+How would you interpret results from the algorithm?
+And What else would you want to know before decided whether to use the algorithm?
+
+
+Singh K, et al. Evaluating a widely implemented proprietary deterioration index model among hospitalized patients with COVID-19. Ann Am Thorac Soc. 2021 Jul;18(7):1129-1137. https://doi/10.1513/AnnalsATS.202006-698OC.
+
+https://www.statnews.com/2020/04/24/coronavirus-hospitals-use-ai-to-predict-patient-decline-before-knowing-it-works/
+
+https://www.beckershospitalreview.com/ehrs/epic-pays-hospitals-that-use-its-ehr-algorithms-report-finds.html
+
+<a href="https://www.flaticon.com/free-icons/risk-management" title="risk management icons">Risk management icons created by Uniconlabs - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/lab" title="lab icons">Lab icons created by Freepik - Flaticon</a>

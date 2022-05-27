@@ -1,0 +1,21 @@
+This third case for the algorithmic bias module is on predicting acute kidney injury.
+
+In this scenario, consider an algorithm that was developed by a major technology company to predict the onset of acute kidney injury in patients within the next 48 hours. The algorithm was developed using a set of EHR data from the US Department of Veterans Affairs with 703,782 adult patients. AKI is often thought to be preventable with early treatment, but current algorithms for detecting AKI depend on changes in serum creatinine which lags behind the actual decline in renal function leading to delays in treatment. This algorithm was able to predict 55% of inpatient AKI events of any severity within a window of up to 48 hours in advance. It also provided correct early predictions in 84% of episodes in which inpatient or outpatient dialysis would be required within 30 days of the onset of AKI and 90% of cases in which outpatient dialysis would be scheduled within 90 days. After highlighting the results, the authors admit that the model is not representative of the population with only 6% of the data comprised of female patients, for whom the model's performance was lower. Despite this, the company reported on the model in a blog post which did not address this limitation at all.
+
+
+Based on the information provided in the case, please take a moment to answer at least one the following questions linked below the case video:
+
+1. How would you deal with advertising from companies promoting their AI products?
+2. What are the pros and cons of using VA data to train AI algorithms?
+
+Robins R. AI systems are worse at diagnosing disease whent training data is skewed by sex. STAT. 25 May 2020. Cited 4 Apr 2022. Available from: https://www.statnews.com/2020/05/25/ai-systems-training-data-sex-bias/
+Suleyman M, King D. Using AI to give doctors a 48-hour head started on life-threatning illness. DeepMind. 31 Jul 2019. Cited 4 Apr 2022. Available from:  https://www.deepmind.com/blog/using-ai-to-give-doctors-a-48-hour-head-start-on-life-threatening-illness
+Tomašev N et al. A clinically applicable approach to continuous prediction of future acute kidney injury. Nature 2019;572(7767):116-119.  https://doi.org/10.1038/s41586-019-1390-1
+
+<a href="https://www.flaticon.com/free-icons/kidney" title="kidney icons">Kidney icons created by Smashicons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/patient" title="patient icons">Patient icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/patient" title="patient icons">Patient icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/patient" title="patient icons">Patient icons created by smashingstocks - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/treatment" title="treatment icons">Treatment icons created by Eucalyp - Flaticon</a>
+
+
